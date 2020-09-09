@@ -1,0 +1,22 @@
+.bg-light {
+    background-color: #0e0e0e!important;
+}
+.icon_search{
+	display: flex;
+}
+.form-control{
+	border-radius: 3rem;
+	background-color: #3d3e44;
+	color:black;
+}
+.navbar-nav{
+	margin-left: 20px;
+
+}
+.nav-link{
+	margin-right:30px;
+	margin-left: 10px;
+}
+i{
+	background-color: white;
+}
