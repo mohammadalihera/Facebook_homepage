@@ -783,3 +783,77 @@ hr{
     background: transparent;
     margin-top: 10px;
 }
+
+/* scroll bar css code for middle =======End================== */
+/* ====================start Right portion ========================= */
+.contuct{
+	width: 330px;
+	background-color:black;
+	margin-left:10px;
+}
+.sponserd{
+	width:330px;
+	height:200px;
+	background-color:black;
+	color:white;
+}
+.brand{
+	display:flex;
+	width:310px;
+	height:90px;
+	color:white;
+	background-color:black; 
+	padding-left:5px;
+	padding-top:10px;
+	border-radius: 10px;
+
+}
+.brand:hover{
+	background-color: #242526
+}
+
+.Birthday{
+	width:310px;
+	height:80px;
+	background-color:black;
+	color:white;
+}
+.birth_gift{
+	display: flex;
+	width:310px;
+	height: 60px;
+	padding-left:5px;
+	padding-top:10px;
+	border-radius: 10px;
+}
+.birth_gift:hover{
+	background-color: #242526;
+
+}
+
+.contuctbar{
+	display:flex;
+	color:white;
+	height: 50px;
+}
+.messegefrnd{
+	display: flex;
+	width:310px;
+	height: 40px;
+	padding-left:5px;
+	padding-top:5px;
+	border-radius: 10px;
+	margin-left:20px;
+
+}
+.messegefrnd:hover{
+	background-color: #242526;
+
+}
+.contuct_name{
+	margin-left:8px;
+	margin-top:4px;
+	font-family:Arial;
+
+}
+
