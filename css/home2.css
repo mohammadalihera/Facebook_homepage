@@ -771,6 +771,13 @@ hr{
 	margin-left: 20px;
 
 }
+.you{
+	border-radius: 50%;
+	margin-left:5px;
+	 margin-top:3px;
+	 width:30px;
+	 height: 30px;
+}
 .putCmnt{
 	width:490px;
 	border-radius: 10px;
@@ -1072,16 +1079,17 @@ a.crt{
 	width:auto;
 	height:70px;
 	margin-left:0px;
+	margin-top:20px;
+	margin-bottom:40px
 }
 .addRCS_style{
-	font-size:25px
+	font-size:25px;
+	margin-top:13px;
+    margin-right:auto;
+	height:60px;
+
 }
-.ls{
-	margin-right:55px;
-}
-.cs{
-	margin-right:55px;
-}
+
 .reactAndcomnt{
 	width:auto;
 	height:60px;
@@ -1103,7 +1111,7 @@ a.crt{
 .comnt{
 	height:40px;
 	margin-left:350px;
-	font-size:25px
+	font-size:25px;
 }
 
 .vhr{
@@ -1117,6 +1125,14 @@ a.crt{
 	margin-left:100px;
 	padding-bottom:10px;
 	height:60px;
+	margin-top:30px
+}
+.you{
+	width:50px;
+	height:50px;
+}
+.putCmnt{
+	height:60px
 }
 .post{
 	margin-top:120px;
