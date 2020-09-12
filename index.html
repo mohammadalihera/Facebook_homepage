@@ -19,14 +19,15 @@
             <div class="search">
              <input class="searchbar" type="search" placeholder="Search Facebook" aria-label="Search">
             </div>
+            <button class="openbtn" onclick="openNav()" >☰ </button>
          </div>
          <div class="middleico">
-            <div class="midicos"><a href="#" ><i class="fas fa-home home"></i></a></div>
-            <div class="midicos"><a href="#" ><i class="fab fa-youtube video"></i></a></div>
-            <div class="midicos"><a href="#" ><i class="fas fa-users group"></i></a></div>
-            <div class="midicos"><a href="#" ><i class="fas fa-chess-board game"></i></a></div>
+            <div class="midicos midh"><a href="#" ><i class="fas fa-home home"></i></a></div>
+            <div class="midicos midv"><a href="#" ><i class="fab fa-youtube video"></i></a></div>
+            <div class="midicos midg"><a href="#" ><i class="fas fa-users group"></i></a></div>
+            <div class="midicos midgm"><a href="#" ><i class="fas fa-chess-board game"></i></a></div>
          </div>
-         <div class="right" style="display:flex; margin-left: 300px;margin-top: 20px; margin-bottom:80px;">
+         <div class="right" >
             <div class="bio" >
                <div class="img">
                   <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="30" height="30" style="border-radius: 50%;margin:3px;">
@@ -106,6 +107,7 @@
                   </div>
                </div>
             </div>
+             
             
           </div>  
    </div>
@@ -113,7 +115,7 @@
 
    <div class="divide_3">
       <div class=".prof_set ">
-         <div class="wrapper">
+         <div class="wrapper leftd">
           <div class="content">
             <div class="bio_l" >
                <div class="img">
@@ -275,11 +277,10 @@
             </div> 
           </div>
         </div>
-
       </div>
 <!-- ======================= middle part===========================================-->
       <div class="post ">
-         <div class="wrapper_m">
+         <div class="wrapper_m cover">
             <div class="content">
                <div id="carouselExampleControls" class="carousel slide story" data-ride="carousel">
                   <div class="carousel-inner">
@@ -316,28 +317,27 @@
                    <span class="sr-only">Next</span>
                  </a>
                </div>
-      
 <!-- ===================Writing/post option bar =====================================-->
                <div class="create">
                   <div class="write">
-                     <div class="img">
-                        <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="30" height="30" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
+                     <div >
+                        <img class="img" src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D">
                      </div>
                      <input class="mypost" type="text" name="write" placeholder="What's on your min Mohammad">
                   </div>
                   <hr>
-                  <div class="optn">
-                     <div class="post_optn">
+                  <div class="optn ">
+                     <div class="post_optn lv">
                         <i class="fas fa-video icos"></i>
-                        <div class="optn_name">Live Video</div>
+                        <div class="optn_name lvn">Live Video</div>
                      </div>
-                     <div class="post_optn">
+                     <div class="post_optn pv ">
                         <i class="fas fa-images icos" style="color:#366b38;"></i>
-                        <div class="optn_name">Photo/Video</div>
+                        <div class="optn_name  pvn">Photo/Video</div>
                      </div>
-                     <div class="post_optn">
+                     <div class="post_optn fla">
                         <i class="fas fa-laugh icos" style="color:#e6d53d;"></i>
-                        <div class="optn_name">Feeling/Activity</div>
+                        <div class="optn_name flan">Feeling/Activity</div>
                      </div>
                   </div>
                </div>
@@ -348,7 +348,7 @@
                      <div class="roomico"><i class="fas fa-video room_icons"></i></div>      
                      <div class="r">Rooms.</div>
                      <div class="vcwf">Video chat with friends</div>
-                     <div class="crt_room"><a href="#">Create Room</a></div>
+                     <div class="crt_room"><a class="crt" href="#">Create Room</a></div>
                   </div>
                </div>
 <!-- ==============================End Room create===============================-->
@@ -367,23 +367,137 @@
                   <div class="red">
                      <p>গুরুত্ব দেওয়া একটি গুরুত্বপূ্র্ন বিষয়। তুমি কাওকে গুরুত্ব না দেওয়া মানে তুমি গুরুত্ব ব্যপারটাকে গুরুত্ব দিয়ে বুঝতে চাওনি। এজন্য যে তোমাকে গুরুত্ব দেয় তাকে তুমি গুরুত্ব  দিতে পারোনি ।এটা তোমার একটি গুরুত্বপূ্র্ন সমস্যা। এই গুরুত্বপূ্র্ন সমস্যা থেকে বাচতে চাইলে মানুষেরগুরুত্বকে গুরুত্বতের সাথে গুরুত্ব দিতে হবে আর তা না হলে তোমার গুরুত্ব গুরুত্বহীন হয়ে পরবে। তাই নিজের জীবন কে গুরুত্বপূ্র্ন করতে চাইলে অন্যদের গুরুত্ব দাও।।</p>
                   </div>
-                  <div class="pic">
-                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmny252V9aIe_Xj08Onm0N5gfW2YjP0arpBQ&usqp=CAU" width="600" height="300">
+                  <div >
+                     <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmny252V9aIe_Xj08Onm0N5gfW2YjP0arpBQ&usqp=CAU" >
                   </div>
                   <div class="reactAndcomnt">
                      <div class="react">
-                        <i class="fas fa-thumbs-up" style="color:white;background-color: blue;border-radius:50%;font-size:1em;width:25px;height:25px;text-align: center;padding-top:5px;"></i><i class="fas fa-heart" style="color:white;background-color:red;border-radius:50%;font-size:1em;width:25px;height:25px;text-align: center;padding-top:6px;"></i><i class="fas fa-surprise" style="color:#ffc107;border-radius:50%;font-size:1.4em;width:30px;height:30px;text-align: center;padding-top:6px;"></i>
+                        <i class="fas fa-thumbs-up reactstyle" style="color:white;background-color: blue;"></i><i class="fas fa-heart reactstyle" style="color:white;background-color:red;text-align: center;padding-top:6px;"></i><i class="fas fa-surprise reactstyle" style="color:#ffc107;font-size:1.4em;width:30px;height:30px;text-align: center;padding-top:5px;"></i>
                      </div>
                      <div class="likes">30</div>
                      <div class="comnt">10 comments</div>
                   </div>
-                  <hr style="background-color:#6c757d;width:550px;margin-left: 20px;"> 
+                  <hr class="vhr"> 
+                  <div class="addRCS">
+                     <div class="addRCS_style ls"><i class="far fa-thumbs-up"></i> Like</div>
+                     <div class="addRCS_style cs"><i class="far fa-comment-alt"></i> Comment</div>
+                     <div class="addRCS_style ss"><i class="fas fa-share"></i> Share</div>
+                  </div>
+                  <hr class="vhr2">   
+                  <div class="yourcomnt"> 
+                     <div class="you">
+                        <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="30" height="30" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
+                     </div>
+                     <input class="putCmnt" type="text" name="comment" placeholder="Write a comment">
+                  </div>                    
+               </div>
+               <div class="view_post">
+                  <div class="ats">
+                     <div class="ap">
+                         <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="50" height="50" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
+                     </div>
+                     <div class="at">
+                        <div class="a">Mohammad Ali</div>
+                        <div class="t">14m. <i class="fas fa-globe" ></i></div>
+                     </div>
+                     <div class="s">...</div>
+                  </div>
+                  <div class="red">
+                     <p>গুরুত্ব দেওয়া একটি গুরুত্বপূ্র্ন বিষয়। তুমি কাওকে গুরুত্ব না দেওয়া মানে তুমি গুরুত্ব ব্যপারটাকে গুরুত্ব দিয়ে বুঝতে চাওনি। এজন্য যে তোমাকে গুরুত্ব দেয় তাকে তুমি গুরুত্ব  দিতে পারোনি ।এটা তোমার একটি গুরুত্বপূ্র্ন সমস্যা। এই গুরুত্বপূ্র্ন সমস্যা থেকে বাচতে চাইলে মানুষেরগুরুত্বকে গুরুত্বতের সাথে গুরুত্ব দিতে হবে আর তা না হলে তোমার গুরুত্ব গুরুত্বহীন হয়ে পরবে। তাই নিজের জীবন কে গুরুত্বপূ্র্ন করতে চাইলে অন্যদের গুরুত্ব দাও।।</p>
+                  </div>
+                  <div >
+                     <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmny252V9aIe_Xj08Onm0N5gfW2YjP0arpBQ&usqp=CAU" >
+                  </div>
+                  <div class="reactAndcomnt">
+                     <div class="react">
+                        <i class="fas fa-thumbs-up reactstyle" style="color:white;background-color: blue;"></i><i class="fas fa-heart reactstyle" style="color:white;background-color:red;text-align: center;padding-top:6px;"></i><i class="fas fa-surprise reactstyle" style="color:#ffc107;font-size:1.4em;width:30px;height:30px;text-align: center;padding-top:6px;"></i>
+                     </div>
+                     <div class="likes">30</div>
+                     <div class="comnt">10 comments</div>
+                  </div>
+                  <hr class="vhr"> 
                   <div class="addRCS">
                      <div class="addRCS_style"><i class="far fa-thumbs-up"></i> Like</div>
                      <div class="addRCS_style"><i class="far fa-comment-alt"></i> Comment</div>
                      <div class="addRCS_style"><i class="fas fa-share"></i> Share</div>
                   </div>
-                  <hr style="background-color:#6c757d; margin-top:-6px; width:550px;margin-left: 20px;">   
+                  <hr class="vhr2">   
+                  <div class="yourcomnt"> 
+                     <div class="you">
+                        <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="30" height="30" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
+                     </div>
+                     <input class="putCmnt" type="text" name="comment" placeholder="Write a comment">
+                  </div>                    
+               </div>
+               <div class="view_post">
+                  <div class="ats">
+                     <div class="ap">
+                         <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="50" height="50" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
+                     </div>
+                     <div class="at">
+                        <div class="a">Mohammad Ali</div>
+                        <div class="t">14m. <i class="fas fa-globe" ></i></div>
+                     </div>
+                     <div class="s">...</div>
+                  </div>
+                  <div class="red">
+                     <p>গুরুত্ব দেওয়া একটি গুরুত্বপূ্র্ন বিষয়। তুমি কাওকে গুরুত্ব না দেওয়া মানে তুমি গুরুত্ব ব্যপারটাকে গুরুত্ব দিয়ে বুঝতে চাওনি। এজন্য যে তোমাকে গুরুত্ব দেয় তাকে তুমি গুরুত্ব  দিতে পারোনি ।এটা তোমার একটি গুরুত্বপূ্র্ন সমস্যা। এই গুরুত্বপূ্র্ন সমস্যা থেকে বাচতে চাইলে মানুষেরগুরুত্বকে গুরুত্বতের সাথে গুরুত্ব দিতে হবে আর তা না হলে তোমার গুরুত্ব গুরুত্বহীন হয়ে পরবে। তাই নিজের জীবন কে গুরুত্বপূ্র্ন করতে চাইলে অন্যদের গুরুত্ব দাও।।</p>
+                  </div>
+                  <div >
+                     <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmny252V9aIe_Xj08Onm0N5gfW2YjP0arpBQ&usqp=CAU" >
+                  </div>
+                  <div class="reactAndcomnt">
+                     <div class="react">
+                        <i class="fas fa-thumbs-up reactstyle" style="color:white;background-color: blue;padding-top:5px;"></i><i class="fas fa-heart reactstyle" style="color:white;background-color:red;padding-top:6px;"></i><i class="fas fa-surprise reactstyle" style="color:#ffc107;border-radius:50%;font-size:1.4em;width:30px;height:30px;text-align: center;padding-top:6px;"></i>
+                     </div>
+                     <div class="likes">30</div>
+                     <div class="comnt">10 comments</div>
+                  </div>
+                  <hr class="vhr"> 
+                  <div class="addRCS">
+                     <div class="addRCS_style"><i class="far fa-thumbs-up"></i> Like</div>
+                     <div class="addRCS_style"><i class="far fa-comment-alt"></i> Comment</div>
+                     <div class="addRCS_style"><i class="fas fa-share"></i> Share</div>
+                  </div>
+                  <hr class="vhr2">   
+                  <div class="yourcomnt"> 
+                     <div class="you">
+                        <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="30" height="30" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
+                     </div>
+                     <input class="putCmnt" type="text" name="comment" placeholder="Write a comment">
+                  </div>                    
+               </div>
+               <div class="view_post">
+                  <div class="ats">
+                     <div class="ap">
+                         <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="50" height="50" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
+                     </div>
+                     <div class="at">
+                        <div class="a">Mohammad Ali</div>
+                        <div class="t">14m. <i class="fas fa-globe" ></i></div>
+                     </div>
+                     <div class="s">...</div>
+                  </div>
+                  <div class="red">
+                     <p>গুরুত্ব দেওয়া একটি গুরুত্বপূ্র্ন বিষয়। তুমি কাওকে গুরুত্ব না দেওয়া মানে তুমি গুরুত্ব ব্যপারটাকে গুরুত্ব দিয়ে বুঝতে চাওনি। এজন্য যে তোমাকে গুরুত্ব দেয় তাকে তুমি গুরুত্ব  দিতে পারোনি ।এটা তোমার একটি গুরুত্বপূ্র্ন সমস্যা। এই গুরুত্বপূ্র্ন সমস্যা থেকে বাচতে চাইলে মানুষেরগুরুত্বকে গুরুত্বতের সাথে গুরুত্ব দিতে হবে আর তা না হলে তোমার গুরুত্ব গুরুত্বহীন হয়ে পরবে। তাই নিজের জীবন কে গুরুত্বপূ্র্ন করতে চাইলে অন্যদের গুরুত্ব দাও।।</p>
+                  </div>
+                  <div >
+                     <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmny252V9aIe_Xj08Onm0N5gfW2YjP0arpBQ&usqp=CAU" >
+                  </div>
+                  <div class="reactAndcomnt">
+                     <div class="react">
+                        <i class="fas fa-thumbs-up reactstyle" style="color:white;background-color: blue;"></i><i class="fas fa-heart reactstyle" style="color:white;background-color:red;text-align: center;padding-top:6px;"></i><i class="fas fa-surprise reactstyle" style="color:#ffc107;border-radius:50%;font-size:1.4em;width:30px;height:30px;text-align: center;padding-top:6px;"></i>
+                     </div>
+                     <div class="likes">30</div>
+                     <div class="comnt">10 comments</div>
+                  </div>
+                  <hr class="vhr" "> 
+                  <div class="addRCS">
+                     <div class="addRCS_style"><i class="far fa-thumbs-up"></i> Like</div>
+                     <div class="addRCS_style"><i class="far fa-comment-alt"></i> Comment</div>
+                     <div class="addRCS_style"><i class="fas fa-share"></i> Share</div>
+                  </div>
+                  <hr class="vhr2" ">   
                   <div class="yourcomnt"> 
                      <div class="you">
                         <img src="https://scontent.fdac34-1.fna.fbcdn.net/v/t31.0-8/27982962_767512116777615_3835956456164356192_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_eui2=AeGlGkMFXzxt2TaGKssnH7uvBxYBIX2JpC8HFgEhfYmkL_9jXNM_srP4aXNFQeCxDrppZ_8izXpcGzGMbmxWuX2N&_nc_ohc=VJ26kB40e4cAX9LNxbH&_nc_ht=scontent.fdac34-1.fna&oh=e472e1261972e632632182480fb5b17c&oe=5F78509D" width="30" height="30" style="border-radius: 50%;margin-left:5px; margin-top:3px;">
@@ -399,7 +513,7 @@
 <!-- =============================================================-->
 
       <div class="contuct">
-        <div class="wrapper_m">
+        <div class="wrapper_m rightd">
             <div class="content">
                <div class="sponserd">
                   <div style="margin-left:10px; margin-top:10px; font-size: 20px">Sponserd</div>
@@ -553,7 +667,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <!-- ==================================================================-->
-
 
 
 <script>

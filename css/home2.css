@@ -38,9 +38,19 @@ body{
     color: white;
     padding-left: 15px
 }
+.openbtn{
+	color:white; 
+	background-color:#1d1a1a;
+	 margin-left:40px;
+	 border:none;
+	 cursor: pointer;
+	 outline:none;
+	 margin-top:2px;
+	 opacity:0;
+}
 .middleico{ /* home video grope game icon bar */
 	display:flex;
-	margin-left:100px;
+	margin-left:0px;
 	
 }
 .midicos{ /* home video grope game icons style */
@@ -101,9 +111,10 @@ body{
 }
 .right{
 	display:flex;
-	margin-left: -100px;
+	margin-top: 20px; 
+	margin-left: 350px;
 	margin-top: 20px;
-	margin-bottom:80px;
+	margin-bottom:10px;
 }
 .bio{ /* profile pic icon and name  bar */
 	display: flex;
@@ -113,7 +124,7 @@ body{
 	border-radius: 3rem;
 	text-align: center;
 	cursor:pointer;
-	margin-left:-265px;
+	margin-left:-295px;
 }
 .bio:hover{
 	background-color: #3a3b3c;
@@ -224,6 +235,7 @@ body{
 }
 .input:checked ~ .text {
   display: block;
+
 }
 
 
@@ -287,8 +299,9 @@ body{
 /*post profile and contuct*/
 .divide_3{
 	display:flex;
+    height: 100% ;
+	width:100%;
 	margin-top:100px;
-	margin-left: 14px;
 }
 /*experiment for scrollbar*/
 .prof_set { 
@@ -304,23 +317,14 @@ body{
 
 .wrapper {
   position: static;
-  width: 100%; 
-  height: 500px; 
+  
+  height: 550px; 
   padding: 0; 
   overflow-y: scroll; 
   overflow-x: hidden; 
   
 }
-.page::after { 
-  content:'';
-  position: fixed;
-  z-index: -1;
-  height: calc(100% - 20px);
-  top: 10px;
-  right: -1px;
-  width: 5px;
-  background: #666;
-}
+
 
 .wrapper::-webkit-scrollbar {
     display: block;
@@ -392,6 +396,9 @@ body{
 .friends:hover{
 	background-color: #3a3b3c;
 }
+.closebtn{
+
+}
 .groups{
 	display: flex;
 	background-color: black;
@@ -457,7 +464,7 @@ body{
 /* story show bar*/
 .story{
 	display:flex;
-	width:600px;
+	width:550px;
 	height: 250px;
 	background-color: #242526;
 	margin-bottom:40px;
@@ -466,7 +473,7 @@ body{
 }
 .items{
 	display:flex;
-	width:580px;
+	width:450px;
 	height:200px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -518,21 +525,28 @@ body{
 
 }
 .imgs{
-	width:150px;
+	width:100px;
 	height:180px;
 }
 
 /*================================================*/
 /* post create bar*/
 .create{
-	width:520px;
+	width:500px;
 	height: 140px;
 	background-color:black;
 	border-radius: 6px;
-	margin-left: 150px;
+	margin-left: 100px;
 	box-shadow: 0 2px 4px rgb(45 43 43 / 34%), 0 8px 16px rgb(0 0 0 / 97%);
 	box-sizing: border-box;
 	padding-top: 10px;
+}
+.img{
+	width:30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left:5px;
+	 margin-top:3px;
 }
 .write{
 	display: flex;
@@ -601,7 +615,7 @@ hr{
 	display: flex;
 	width:500px;
 	height:100px;
-	margin-left:150px;
+	margin-left:100px;
 	background-color:#242526;
 	margin-top: 30px;  
 	border-radius: 6px;
@@ -646,7 +660,7 @@ hr{
 
 /* Post View boxes */
 .view_post{
-	width:600px;
+	width:500px;
 	height:750px;
 	background-color:#242526; 
 	margin-left:100px;
@@ -656,7 +670,7 @@ hr{
 }
 .ats{
 	display:flex;
-	width:550;
+	width:450;
 	border-radius:5px;
 	height:80px;
 	color:white;
@@ -668,21 +682,21 @@ hr{
 	cursor: pointer;
 }
 .s{
-	margin-left: 380px;
+	margin-left: 280px;
 	font-size:25px;
 	font-weight: bold;
 	cursor: pointer;
 }
 .red{
 	height:180px;
-	width:550px;
+	width:450px;
 	border-radius: 5px;
 	color:white;
 	margin-left:30px;
 }
 .pic{
 	height:300px;
-	width:600;
+	width:500px;
 	border-radius:5px;
 	cursor:pointer;
 }
@@ -696,6 +710,14 @@ hr{
 .react{
 	width:90px;
 }
+.reactstyle{
+	border-radius:50%;
+	font-size:1em;
+	width:25px;
+	height:25px;
+	text-align: center;
+	padding-top:6px;
+}
 .likes{
 	margin-top:5px;
 	font-size:16px;
@@ -704,12 +726,12 @@ hr{
 }
 .comnt{
 	font-family:Arial;
-	margin-left:350px;
+	margin-left:250px;
 	color:#9e9e9e;
 }
 .addRCS{
 	display: flex;
-	width:600px;
+	width:500px;
 	height:40px;
 	margin-top:-12px;
 	margin-bottom:4px;
@@ -730,11 +752,21 @@ hr{
 .addRCS_style:hover{
 	background-color:#4b4e50; 
 }
-
+.vhr{
+	background-color:#6c757d;
+	width:450px;
+	margin-left: 20px;
+}
+.vhr2{
+	background-color:#6c757d;
+	 margin-top:-6px;
+	  width:450px;
+	  margin-left: 20px;
+}
 
 .yourcomnt{
 	display:flex;
-	width:550px;
+	width:450px;
 	height:40px;
 	margin-left: 20px;
 
@@ -751,9 +783,8 @@ hr{
 }
 /* scroll bar css code for middle ========================= */
 .wrapper_m {
-  position: static;
-  width: 100%; 
-  height: 500px; 
+  position: static; 
+  height: 550px; 
   padding: 0; 
   overflow-y: scroll; 
   overflow-x: hidden; 
@@ -788,7 +819,7 @@ hr{
 .contuct{
 	width: 330px;
 	background-color:black;
-	margin-left:10px;
+	margin-left:60px;
 }
 .sponserd{
 	width:330px;
@@ -855,4 +886,250 @@ hr{
 	font-family:Arial;
 
 }
+
+/* ====================Responsive style ========================= */
+
+@media screen and (max-width: 700px){
+.leftd{
+	width:0px;
+
+}
+.rightd{
+	width:0px;
+
+}
+.mynav{
+	flex-direction:column;
+	height:200px;
+
+}
+.ficon_search{
+	margin-top:0px;
+	margin-bottom:-30px;
+}
+.search{
+	margin-right:65px;
+	margin-bottom:
+}
+.openbtn{
+	margin-bottom:20px;
+	font-size:40px;
+	opacity:1;
+	margin-left:300px;
+}
+.middleico{
+	margin-left:80px;
+	margin-bottom:0px
+}
+.midicos{
+	font-size:20px;
+}
+.midh{
+	margin-right:50px;
+}
+.midv{
+	margin-right:50px;
+}
+.midg{
+	margin-right:50px;
+}
+.right{
+	margin-left:240px;
+	
+}
+.plus{
+	margin-right:100px;
+	padding-top:-15px;
+	text-align:center;
+	font-size:25px;
+
+}
+.p{
+	margin-bottom:10px;
+}
+.messenger{
+	margin-right:100px;
+	font-size:25px;
+}
+.bell{
+	margin-right:100px;
+	font-size:25px;
+}
+.dropd{
+	font-size:25px;
+}
+.b{
+	
+}
+.bio{
+	margin-left:-290px;
+	opacity:0
+}
+.wrapper_m{
+	height:2000px;
+
+}
+.story{
+	width:auto;
+	margin-left:0px;
+}
+.create{
+	width:auto;
+	margin-left:0px;
+	margin-bottom:100px;
+}
+.write{
+	margin-left:90px;
+	font-size:40px;
+}
+.img{
+	width:80px;
+	height:80px;
+}
+.optn{
+	width:auto;
+	margin-right:0px;
+	height:100px;
+}
+.post_optn{
+	width:200px;
+	height:70px;
+	margin-left:20px;
+	font-size:25px;
+}
+.icos{
+	margin-left:0
+	font-size:
+}
+.lv{
+	;
+}
+.lvn{
+	width:200px;
+	font-size:25px;
+
+	
+}
+.pv{
+	margin-left:40px;
+}
+.pvn{
+	font-size:25px;
+}
+.fla{
+	margin-left:50px;
+	width:auto;
+}
+.flan{
+	font-size:25px;
+}
+.room{
+	width:auto;
+	margin-left:0px;
+	height:150px;
+	margin-top:150px;
+}
+.roomico{
+	font-size:30px
+}
+.r{
+	font-size:25px;
+}
+.vcwf{
+	font-size:20px
+}
+a.crt{
+	font-size:20px;
+	margin-left:200px;
+}
+
+.view_post{
+	height:1000px;
+	margin-left:0px;
+	width:auto;
+
+	
+
+}
+.a{
+	width:200px;
+	font-size:25px;
+}
+.s{
+	margin-left:400px;
+	font-size:35px;
+}
+.red{
+	width:auto;
+	font-size:24px;
+	height:auto;
+}
+.pic{
+	width:750px;
+	height:400px
+}
+.addRCS{
+	width:auto;
+	height:70px;
+	margin-left:0px;
+}
+.addRCS_style{
+	font-size:25px
+}
+.ls{
+	margin-right:55px;
+}
+.cs{
+	margin-right:55px;
+}
+.reactAndcomnt{
+	width:auto;
+	height:60px;
+	margin-top:20px;
+
+}
+.react{
+	font-size:35px;
+	width:160px;
+}
+.likes{
+	font-size:35px;
+	margin-left:20px;
+}
+.reactstyle{
+	height:50px;
+	width:50px;
+}
+.comnt{
+	height:40px;
+	margin-left:350px;
+	font-size:25px
+}
+
+.vhr{
+	width:auto
+}
+.vhr2{
+	width:auto
+}
+.yourcomnt{
+	widht:auto;
+	margin-left:100px;
+	padding-bottom:10px;
+	height:60px;
+}
+.post{
+	margin-top:120px;
+	
+
+}
+
+.cover{
+
+
+}
+}
+
+
+
 
